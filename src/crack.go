@@ -41,7 +41,7 @@ func crack(hash string, configFile string) {
 	fmt.Println("...")
 
 	_, configExists := os.Stat(configFile)
-	if os.IsNotExist((configExists)) {
+	if os.IsNotExist(configExists) {
 		greenPrn.Print("  ‣ ")
 		redPrn.Print("Error ")
 		fmt.Printf("reading config file: %s.\n", configFile)
@@ -105,7 +105,7 @@ func crack(hash string, configFile string) {
 	}
 
 	_, dictConfigExists := os.Stat(dictFilename)
-	if os.IsNotExist((dictConfigExists)) {
+	if os.IsNotExist(dictConfigExists) {
 		greenPrn.Print("  ‣ ")
 		fmt.Print("Dictionary file doesn't ")
 		redPrn.Print("exists")

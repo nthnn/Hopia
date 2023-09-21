@@ -41,9 +41,9 @@ func dumpUsage() {
 	fmt.Println("                                 using a text list.")
 
 	greenPrn.Print("    hopia af ")
-	cyanPrn.Print("<url> <config>")
-	fmt.Println("      Find an admin login panel using")
-	fmt.Println("                                 with a configuration and list.")
+	cyanPrn.Print("<url> <list>")
+	fmt.Println("        Find an admin login panel using")
+	fmt.Println("                                 with a possible admin panel list.")
 
 	greenPrn.Print("    hopia ps ")
 	cyanPrn.Print("<url>")

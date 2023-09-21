@@ -34,7 +34,7 @@ func ddos(urlStr string, configFile string) {
 	}
 
 	_, configExists := os.Stat(configFile)
-	if os.IsNotExist((configExists)) {
+	if os.IsNotExist(configExists) {
 		greenPrn.Print("  ‣ ")
 		redPrn.Print("Error ")
 		fmt.Printf("reading config file: %s.\n", configFile)

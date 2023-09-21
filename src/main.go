@@ -28,5 +28,16 @@ func main() {
 		}
 
 		crack(os.Args[2], os.Args[3])
+
+	case "af":
+		if len(os.Args) != 4 {
+			dumpUsage()
+			return
+		}
+
+		adminFinder(os.Args[2], os.Args[3])
+
+	case "ps":
+		break
 	}
 }
