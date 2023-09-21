@@ -12,7 +12,7 @@ import { ArrowRightIcon } from '@heroicons/vue/24/outline';
             <p>Hopia is a powerful and versatile penetration testing tool designed for ethical and legitimate security testing purposes. It provides a range of security testing capabilities to help assess and enhance the security of systems and networks.</p>
             <p>It is also important to note that Hopia is intended to be used responsibly, within the boundaries of the law, and with proper authorization from system owners or administrators. Any malicious or unauthorized use of this software is strictly prohibited and may result in legal consequences.</p>
 
-            <RouterLink to="/docs" class="btn btn-outline-primary learn-more-btn">
+            <RouterLink to="/docs" class="btn btn-outline-light learn-more-btn">
                 Learn More
                 <ArrowRightIcon class="icon-18" />
             </RouterLink>

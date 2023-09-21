@@ -14,7 +14,7 @@ var pageData = reactive({
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-light shadow-sm fixed-top" data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg bg-dark shadow-sm fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Hopia</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
