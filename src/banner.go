@@ -32,15 +32,18 @@ func dumpUsage() {
 
 	greenPrn.Print("    hopia ddos ")
 	cyanPrn.Print("<url> <config>")
-	fmt.Println("    Launches a Distributed Denial of\n                                 Service attack with a configuration.")
+	fmt.Println("    Launches a Distributed Denial of")
+	fmt.Println("                                 Service attack with a configuration.")
 
 	greenPrn.Print("    hopia crack ")
 	cyanPrn.Print("<hash> <config>")
-	fmt.Println("  Brute force an encrypted text\n                                 using a text list.")
+	fmt.Println("  Brute force an encrypted text")
+	fmt.Println("                                 using a text list.")
 
 	greenPrn.Print("    hopia af ")
 	cyanPrn.Print("<url> <config>")
-	fmt.Println("      Find an admin login panel using\n                                 with a configuration and list.")
+	fmt.Println("      Find an admin login panel using")
+	fmt.Println("                                 with a configuration and list.")
 
 	greenPrn.Print("    hopia ps ")
 	cyanPrn.Print("<url>")

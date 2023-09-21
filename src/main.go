@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 )
 
@@ -21,9 +20,13 @@ func main() {
 		}
 
 		ddos(os.Args[2], os.Args[3])
-		break
 
-	default:
-		fmt.Println()
+	case "crack":
+		if len(os.Args) != 4 {
+			dumpUsage()
+			return
+		}
+
+		crack(os.Args[2], os.Args[3])
 	}
 }
