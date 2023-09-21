@@ -1,1 +1,1 @@
-go build -o bin/hopia src/*.go
+go build -ldflags "-s -w" -o bin/hopia src/*.go
