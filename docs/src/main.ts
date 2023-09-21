@@ -1,6 +1,6 @@
 import "./assets/main.css";
 import "../node_modules/bootstrap/dist/js/bootstrap";
-import "../node_modules/bootswatch/dist/cosmo/bootstrap.min.css";
+import "../node_modules/bootswatch/dist/lux/bootstrap.min.css";
 
 import { createApp, type App } from "vue";
 import WebApp from "./App.vue";
