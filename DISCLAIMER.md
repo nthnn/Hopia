@@ -1,4 +1,11 @@
-# Hopia - Disclaimer of Liability and Legal Notice
+<center>
+    <img src="docs/src/assets/hopia.png" width="270px" />
+    <p align="center">
+        <h1>Hopia Wannabe-Hacker Tool</h1>
+    </p>
+</center>
+
+## Disclaimer of Liability and Legal Notice
 
 **IMPORTANT**: This software is provided for educational purposes and to enhance system security only. By using this software, you agree to the following terms:
 
