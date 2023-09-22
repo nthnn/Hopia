@@ -38,6 +38,6 @@ func main() {
 		adminFinder(os.Args[2], os.Args[3])
 
 	case "ps":
-		break
+		portScan(os.Args[2])
 	}
 }
