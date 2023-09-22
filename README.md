@@ -1,9 +1,9 @@
 <center>
     <img src="docs/src/assets/hopia.png" width="270px" />
-    <p align="center">
-        <h1>Hopia Wannabe-Hacker Tool</h1>
-    </p>
 </center>
+<p align="center">
+    <h1>Hopia Wannabe-Hacker Tool</h1>
+</p>
 
 Hopia is a powerful and versatile wannabe penetration testing tool designed for ethical and legitimate security testing purposes. It provides a range of wannabe security testing capabilities to help assess and enhance the security of systems and networks.
 
