@@ -1,9 +1,9 @@
-<center>
-    <img src="docs/src/assets/hopia.png" width="270px" />
-</center>
 <p align="center">
-    <h1>Hopia Wannabe-Hacker Tool</h1>
+    <img src="docs/src/assets/hopia.png" width="270px" />
+    <h1 align="center">Hopia Wannabe-Hacker Tool</h1>
 </p>
+
+![Go Build](https://github.com/nthnn/yttria-lang/actions/workflows/go-build.yml/badge.svg)
 
 Hopia is a powerful and versatile wannabe penetration testing tool designed for ethical and legitimate security testing purposes. It provides a range of wannabe security testing capabilities to help assess and enhance the security of systems and networks.
 
