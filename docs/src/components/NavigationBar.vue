@@ -5,8 +5,8 @@ import {
     ArrowDownTrayIcon,
     CodeBracketIcon,
     DocumentDuplicateIcon,
-    GlobeAsiaAustraliaIcon,
-    HomeModernIcon
+    HomeModernIcon,
+    ShieldExclamationIcon
 } from "@heroicons/vue/24/outline";
 
 const route: RouteLocationNormalizedLoaded = useRoute();
@@ -39,7 +39,7 @@ var pageData = reactive({
                     </li>
                     <li class="nav-item">
                         <RouterLink to="/disclaimer" v-bind:class="pageData.currentRoute == 'disclaimer' ? 'active nav-link' : 'nav-link'">
-                            <GlobeAsiaAustraliaIcon class="icon-18" />
+                            <ShieldExclamationIcon class="icon-18" />
                             Disclaimer
                         </RouterLink>
                     </li>
