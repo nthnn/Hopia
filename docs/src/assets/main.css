@@ -3,7 +3,7 @@
     color: var(--bs-white);
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: var(--bs-white) !important;
 }
 
@@ -11,4 +11,8 @@ h1, h2 {
     width: 18px;
     height: 18px;
     margin-bottom: 4px;
+}
+
+code {
+    color: var(--bs-info) !important;
 }
