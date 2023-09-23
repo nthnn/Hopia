@@ -1,9 +1,7 @@
-<center>
+<p align="center">
     <img src="docs/src/assets/hopia.png" width="270px" />
-    <p align="center">
-        <h1>Hopia Wannabe-Hacker Tool</h1>
-    </p>
-</center>
+    <h1 align="center">Hopia Wannabe-Hacker Tool</h1>
+</p>
 
 ## Disclaimer of Liability and Legal Notice
 
