@@ -62,6 +62,54 @@
         <b>Example:</b>
         <code>./hopia crack 596a96cc7bf9108cd896f33c44aedc8a bruteforce.properties</code>
     </div>
+    <br/>
+
+    <div class="card card-body bg-dark rounded-0 border-white">
+        <h3>Admin Finder</h3>
+        <p>The <code>af</code> (admin finder) command helps you find an admin login panel on a website by checking against a list of possible admin panel URLs. It's essential to use this command responsibly and only on websites for which you have proper authorization.</p>
+        <br/>
+
+        <b>Usage:</b>
+        <code>hopia af &lt;url&gt; &lt;config&gt;</code>
+        <br/>
+
+        <b>Arguments:</b>
+        <ul>
+            <li>
+                <code>url</code>
+                <p>Host website/server URL for the finder to locate the admin login panel.</p>
+            </li>
+            <li>
+                <code>config</code>
+                <p>A text file containing a list of possible admin panel URLs to check against the target website.</p>
+            </li>
+        </ul>
+
+        <b>Example:</b>
+        <code>./hopia af http://localhost admin-path.txt</code>
+    </div>
+    <br/>
+
+    <div class="card card-body bg-dark rounded-0 border-white">
+        <h3>Port Scanner</h3>
+        <p>The <code>ps</code> (port scanner) command allows you to scan for open ports on a specified URL, helping you identify potential vulnerabilities. Before using this command, ensure you have permission to scan the target system.</p>
+        <br/>
+
+        <b>Usage:</b>
+        <code>hopia ps &lt;url&gt;</code>
+        <br/>
+
+        <b>Argument:</b>
+        <ul>
+            <li>
+                <code>url</code>
+                <p>The target URL of the system you want to scan for open ports.</p>
+            </li>
+        </ul>
+
+        <b>Example:</b>
+        <code>./hopia ps http://localhost</code>
+    </div>
 </template>
 
 <style>

@@ -2,6 +2,7 @@
 import { computed, reactive } from "vue";
 import { type RouteLocationNormalizedLoaded, RouterLink, useRoute } from "vue-router";
 import {
+    ArrowDownTrayIcon,
     CodeBracketIcon,
     DocumentDuplicateIcon,
     GlobeAsiaAustraliaIcon,
@@ -37,10 +38,16 @@ var pageData = reactive({
                         </RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink to="/about" v-bind:class="pageData.currentRoute == 'about' ? 'active nav-link' : 'nav-link'">
+                        <RouterLink to="/disclaimer" v-bind:class="pageData.currentRoute == 'disclaimer' ? 'active nav-link' : 'nav-link'">
                             <GlobeAsiaAustraliaIcon class="icon-18" />
-                            About
+                            Disclaimer
                         </RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/nthnn/Hopia/release" target="_blank" class="nav-link">
+                            <ArrowDownTrayIcon class="icon-18" />
+                            Download
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="https://github.com/nthnn/Hopia" target="_blank" class="nav-link">
