@@ -44,7 +44,7 @@ var pageData = reactive({
                         </RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/nthnn/Hopia/release" target="_blank" class="nav-link">
+                        <a href="https://github.com/nthnn/Hopia/releases" target="_blank" class="nav-link">
                             <ArrowDownTrayIcon class="icon-18" />
                             Download
                         </a>
