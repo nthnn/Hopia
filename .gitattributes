@@ -1,1 +1,1 @@
-*.vue linguist-detectable=true
+docs/src/*.vue linguist-detectable=true
